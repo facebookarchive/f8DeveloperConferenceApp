@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <integer-array name="always_favorite_breaks">
+        <item>1</item>
+        <item>3</item>
+        <item>11</item>
+    </integer-array>   
+</resources>

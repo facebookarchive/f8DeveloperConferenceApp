@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">f8</string>
+
+    <!-- App IDs, Keys -->
+    <string name="parse_application_id">5PxWzBzsz2meLYfZYJ4xJ8cMOCr1Flffpk16PO3I</string>
+    <string name="parse_client_key">mJ5Id1Fgt905YMHNf96NGcUAiDoIR8cOwqRw5edO</string>
+    <string name="facebook_app_id">596966430395028</string>
+    <string name="youtube_developer_key">AIzaSyDf4PO5tyhKh9UVS5-ma1QdvaXTGB51mN4</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_title">f8</string>
+    <string name="action_schedule">Schedule</string>
+    <string name="action_my_schedule">My Schedule</string>
+    <string name="action_alerts">Alerts</string>
+    <string name="action_maps">View Map</string>
+    <string name="map_description_accessible">Venue Map</string>
+    <string name="nothing">Nothing Here</string>
+    <string name="no_alerts">You\'re all caught up with messages.</string>
+    <string name="build">LET\'S BUILD</string>
+    <string name="dev_con">Facebook Developer Conference</string>
+    <string name="privacy_policy">By logging in, you agree to our \n <a href="https://m.facebook.com/terms">Terms</a> and <a href="https://m.facebook.com/policy">Privacy Policy</a> \n \n <a href="https://gist.github.com/beardouglas/11349951">About</a></string>
+    <string name="add_favorite">Add to My Schedule</string>
+    <string name="remove_favorite">Remove from My Schedule</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="session_invalid_error">Your current session is no longer valid. Please log in again.</string>
+    <string name="logn_generic_error">Something went wrong. Please retry.</string>
+    <string name="device_offline_message">"Your device appears to be offline. Some content may be unavailable."</string>
+    <string name="terms_privacy">Terms and Privacy</string>
+    <string name="terms_link">https://m.facebook.com/policies?_rdr</string>
+    <string name="play_video">Watch the Video</string>
+    <string name="description_checkmark">Checked</string>
+    <string name="map_title_morning">MORNING</string>
+    <string name="map_title_afternoon">AFTERNOON</string>
+    <string name="map_title_evening">EVENING</string>
+
+    <string-array name="drawer_schedule_content">
+        <item>Welcome</item>
+        <item>Registration</item>
+        <item>Keynotes</item>
+        <item>Lunch Break</item>
+        <item>Build</item>
+        <item>Grow</item>
+        <item>Monetize</item>
+        <item>The Hacker Way</item>
+        <item>The Garage</item>
+        <item>Games Lounge</item>
+        <item>Internet.org</item>
+        <item>After Party</item>
+    </string-array>
+    <string-array name="drawer_schedule_times">
+        <item></item>
+        <item>8:00 AM</item>
+        <item>10:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:30 PM</item>
+        <item>12:30 PM</item>
+        <item>12:30 PM</item>
+        <item>12:30 PM</item>
+        <item>All Day</item>
+        <item>All Day</item>
+        <item>All Day</item>
+        <item>5:30 PM</item>
+    </string-array>
+
+</resources>

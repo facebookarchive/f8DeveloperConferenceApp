@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_body"
+    android:paddingBottom="15dp"
+    android:paddingTop="15dp" >
+
+    <TextView
+        android:id="@+id/survey_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/checkmark"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/survey_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/survey_title"
+        android:layout_toLeftOf="@id/checkmark"
+        android:textColor="@android:color/white"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@id/checkmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/description_checkmark"
+        android:src="@drawable/checkmark"
+        android:visibility="visible" />
+
+</RelativeLayout>
