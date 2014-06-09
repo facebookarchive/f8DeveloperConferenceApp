@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.f8" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.f8</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.f8</item>
+    </style>
+
+    <style name="ActionBar.Transparent.f8" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_f8</item>
+    </style>
+    
+     <style name="ActionBarTabStyle.f8" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:height">200dip</item>
+    </style>
+    
+
+</resources>

@@ -1,0 +1,10 @@
+*~
+.DS_Store
+*.swp
+.arcconfig
+
+# ---
+# Temporary, for review
+appcompat/
+facebook-android-sdk/
+ios/

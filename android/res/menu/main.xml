@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:compat="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/action_schedule"
+        android:orderInCategory="100"
+        compat:showAsAction="always"
+        android:title="@string/action_schedule"
+        android:icon="@drawable/schedule"
+        android:layout_width="20dp"/>
+    
+    <item
+        android:id="@+id/action_my_schedule"
+        android:orderInCategory="100"
+        compat:showAsAction="always"
+        android:title="@string/action_my_schedule"
+        android:icon="@drawable/myschedule"
+        android:layout_width="20dp"/>
+    
+    <item
+        android:id="@+id/action_alerts"
+        android:orderInCategory="100"
+        compat:showAsAction="always"
+        android:title="@string/action_alerts"
+        android:icon="@drawable/alerts"
+        android:layout_width="20dp"/>
+    
+    <item
+        android:id="@+id/action_maps"
+        android:orderInCategory="100"
+        compat:showAsAction="always"
+        android:title="@string/action_maps"
+        android:icon="@drawable/places"
+        android:layout_width="20dp"/>
+    
+    <item
+        android:id="@+id/action_terms_link"
+        android:orderInCategory="100"
+        compat:showAsAction="never"
+        android:title="@string/terms_privacy"
+        />
+    
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        compat:showAsAction="never"
+        android:title="@string/logout"
+        />
+
+
+</menu>

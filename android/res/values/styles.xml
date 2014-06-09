@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.f8" parent="@style/Theme.AppCompat">
+        <item name="actionBarStyle">@style/ActionBar.Transparent.f8</item>
+        <item name="android:colorBackground">@color/background_body</item>
+    </style>
+
+    <style name="Theme.f8.login">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="background">@drawable/login_bg</item>
+    </style>
+    
+    <style name="Theme.f8.talk">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="ActionBar.Transparent.f8" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_f8</item>
+    </style>
+
+    <style name="MapsTheme" parent="@style/Theme.AppCompat"></style>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_body">#2b2b2b</color>
+    <color name="yellow">#ffe63c</color>
+    <color name="nav_selected">#21201f</color> 
+    <color name="light_gray">#d5d5d5</color>
+    <color name="white">#fff</color>
+    <color name="navy">#2e4551</color>
+    <color name="black">#2d2b2b</color>
+    <color name="build">#bc4e3e</color>
+    <color name="grow">#e7ad42</color>
+    <color name="monetize">#5fb069</color>
+    <color name="hackerway">#77b7c9</color>
+    <color name="thegarage">#3b5998</color>
+    <color name="internetorg">#d32ec6</color>
+    <color name="gameslounge">#d8532f</color>
+    <color name="transparent">#00000000</color>
+    
+
+</resources>
