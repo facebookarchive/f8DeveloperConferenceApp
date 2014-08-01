@@ -50,7 +50,7 @@ import com.parse.f8.model.Talk;
 
 public class TalkActivity extends ActionBarActivity {
 
-	private Talk selectedTalk = null;
+	private Talk selectedTalk;
 	private boolean isActive = false;
 
 	@Override
@@ -77,8 +77,10 @@ public class TalkActivity extends ActionBarActivity {
 
 				selectedTalk = talk;
 
-				// Update the view
-				updateView(selectedTalk);
+				if (!isFinishing()) {
+					// Update the view
+					updateView(selectedTalk);
+				}
 			}
 		};
 

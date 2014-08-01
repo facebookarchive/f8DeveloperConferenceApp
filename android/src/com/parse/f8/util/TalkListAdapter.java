@@ -44,10 +44,13 @@ import com.parse.f8.model.Talk;
 public class TalkListAdapter extends ArrayAdapter<Talk> {
 
 	private boolean isFavoritesView = false;
+	private LayoutInflater inflater;
 
 	public TalkListAdapter(Context context, boolean isFavorites) {
 		super(context, 0);
 		isFavoritesView = isFavorites;
+		inflater = (LayoutInflater) getContext().getSystemService(
+				Context.LAYOUT_INFLATER_SERVICE);
 	}
 
 	@Override
@@ -55,9 +58,7 @@ public class TalkListAdapter extends ArrayAdapter<Talk> {
 		ViewHolder holder;
 
 		// If a view hasn't been provided inflate on
-		if (null == view) {
-			LayoutInflater inflater = (LayoutInflater) getContext()
-					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		if (view == null) {
 			view = inflater.inflate(R.layout.list_item_talk, parent, false);
 			// Cache view components into the view holder
 			holder = new ViewHolder();
@@ -155,7 +156,7 @@ public class TalkListAdapter extends ArrayAdapter<Talk> {
 		return view;
 	}
 
-	static class ViewHolder {
+	private static class ViewHolder {
 		LinearLayout talkLayout;
 		TextView timeView;
 		TextView titleView;

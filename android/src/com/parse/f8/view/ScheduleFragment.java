@@ -61,9 +61,9 @@ public class ScheduleFragment extends Fragment {
 	private List<Talk> talkList;
 	private Room trackForTalk = null;
 
-	private TextView trackDescriptionTextView = null;
-	private TextView trackDescriptionHeaderTextView = null;
-	private LinearLayout talkLayout = null;
+	private TextView trackDescriptionTextView;
+	private TextView trackDescriptionHeaderTextView;
+	private LinearLayout talkLayout;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -93,8 +93,10 @@ public class ScheduleFragment extends Fragment {
 						public void done(Talk talk, ParseException e) {
 							if (talk != null) {
 								talkList.add(talk);
-								// Update view
-								updateView();
+								if (!getActivity().isFinishing()) {
+									// Update view
+									updateView();
+								}
 							}
 						}
 					});
@@ -117,8 +119,10 @@ public class ScheduleFragment extends Fragment {
 											adapter.add(talk);
 										}
 									}
-									// Update view
-									updateView();
+									if (!getActivity().isFinishing()) {
+										// Update view
+										updateView();
+									}
 								}
 							}
 						});
@@ -206,14 +210,14 @@ public class ScheduleFragment extends Fragment {
 			// Update the description from the Talk
 			if (trackDescriptionTextView != null && talkList.size() > 0) {
 				Talk talk = talkList.get(0);
-				trackDescriptionTextView.setText(talk.getString("abstract"));
+				trackDescriptionTextView.setText(talk.getAbstract());
 				trackDescriptionTextView.setVisibility(View.VISIBLE);
 			}
 		} else {
 			// Update the description header from the Room
 			if (trackDescriptionHeaderTextView != null && trackForTalk != null) {
 				trackDescriptionHeaderTextView.setText(trackForTalk
-						.getString("description"));
+						.getDescription());
 			}
 			// Set the background color that distinguishes a trck
 			if (talkLayout != null && talkList.size() > 0 && isAdded()) {

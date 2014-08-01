@@ -111,7 +111,7 @@ public class MapsActivity extends BaseActivity implements ActionBar.TabListener 
 		}
 	}
 
-	private class MapDetailFragment extends Fragment {
+	public static class MapDetailFragment extends Fragment {
 
 		public static final String ARG_MAP = "map";
 
@@ -147,7 +147,6 @@ public class MapsActivity extends BaseActivity implements ActionBar.TabListener 
 	@Override
 	public void onTabSelected(Tab arg0, FragmentTransaction arg1) {
 		mapsViewPager.setCurrentItem(arg0.getPosition());
-
 	}
 
 	@Override

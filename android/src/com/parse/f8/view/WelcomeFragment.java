@@ -40,16 +40,15 @@ import android.widget.TextView;
 
 import com.parse.GetCallback;
 import com.parse.ParseException;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.f8.R;
+import com.parse.f8.model.GeneralInfo;
 
 public class WelcomeFragment extends Fragment {
 
-	private WelcomeListAdapter adapter = null;
-	private TextView wecomeDescriptionTextView = null;
-	private ParseObject welcomeData = null;
+	private WelcomeListAdapter adapter;
+	private TextView wecomeDescriptionTextView;
+	private GeneralInfo welcomeData;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -58,17 +57,14 @@ public class WelcomeFragment extends Fragment {
 		adapter = new WelcomeListAdapter(getActivity());
 
 		// Get the information
-		ParseQuery<ParseObject> welcomeQuery = ParseQuery
-				.getQuery("GeneralInfo");
-		welcomeQuery.getFirstInBackground(new GetCallback<ParseObject>() {
+		GeneralInfo.findInBackground(new GetCallback<GeneralInfo>() {
 
 			@Override
-			public void done(ParseObject object, ParseException e) {
+			public void done(GeneralInfo result, ParseException e) {
 				if (e == null) {
-					welcomeData = object;
+					welcomeData = result;
 					if (adapter != null) {
-						JSONArray welcomeDetails = object
-								.getJSONArray("detail");
+						JSONArray welcomeDetails = welcomeData.getDetail();
 						for (int i = 0; i < welcomeDetails.length(); i++) {
 							try {
 								JSONObject innerObject = welcomeDetails
@@ -78,7 +74,9 @@ public class WelcomeFragment extends Fragment {
 								// Do nothing
 							}
 						}
-						updateView();
+						if (!getActivity().isFinishing()) {
+							updateView();
+						}
 					}
 				}
 			}
@@ -90,8 +88,9 @@ public class WelcomeFragment extends Fragment {
 			Bundle savedInstanceState) {
 		final View v = inflater.inflate(R.layout.track_welcome_layout,
 				container, false);
-		((TextView) v.findViewById(R.id.greeting)).setText("Welcome, "
-				+ ParseUser.getCurrentUser().getString("firstName"));
+		((TextView) v.findViewById(R.id.greeting)).setText(getString(
+				R.string.welcome_message,
+				ParseUser.getCurrentUser().getString("firstName")));
 
 		LinearLayout welcomeBlock = (LinearLayout) v
 				.findViewById(R.id.welcome_color_block);
@@ -120,8 +119,7 @@ public class WelcomeFragment extends Fragment {
 
 	private void updateView() {
 		if (wecomeDescriptionTextView != null && welcomeData != null) {
-			wecomeDescriptionTextView.setText(welcomeData
-					.getString("description"));
+			wecomeDescriptionTextView.setText(welcomeData.getDescription());
 		}
 		if (adapter != null) {
 			adapter.notifyDataSetChanged();
@@ -130,17 +128,19 @@ public class WelcomeFragment extends Fragment {
 
 	private static class WelcomeListAdapter extends ArrayAdapter<JSONObject> {
 
-		ViewHolder holder;
-
+		private ViewHolder holder;
+		private LayoutInflater inflater;
+		
 		public WelcomeListAdapter(Context context) {
 			super(context, 0);
+			inflater = (LayoutInflater) getContext().getSystemService(
+					Context.LAYOUT_INFLATER_SERVICE);
 		}
 
 		@Override
 		public View getView(int position, View view, ViewGroup parent) {
 			if (view == null) {
-				view = View.inflate(getContext(), R.layout.list_item_welcome,
-						null);
+				view = inflater.inflate(R.layout.list_item_welcome, parent, false);
 				holder = new ViewHolder();
 				holder.welcomeTitle = (TextView) view
 						.findViewById(R.id.welcome_title);
@@ -163,7 +163,7 @@ public class WelcomeFragment extends Fragment {
 		}
 	}
 
-	static class ViewHolder {
+	private static class ViewHolder {
 		TextView welcomeTitle;
 		TextView welcomeContent;
 	}

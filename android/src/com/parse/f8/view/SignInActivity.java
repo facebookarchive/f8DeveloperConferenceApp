@@ -106,19 +106,13 @@ public class SignInActivity extends ActionBarActivity {
 							} else if (response.getError() != null) {
 								if ((response.getError().getCategory() == FacebookRequestError.Category.AUTHENTICATION_RETRY)
 										|| (response.getError().getCategory() == FacebookRequestError.Category.AUTHENTICATION_REOPEN_SESSION)) {
-									Toast.makeText(
-											getApplicationContext(),
-											getResources()
-													.getString(
-															R.string.session_invalid_error),
+									Toast.makeText(getApplicationContext(),
+											R.string.session_invalid_error,
 											Toast.LENGTH_LONG).show();
 
 								} else {
-									Toast.makeText(
-											getApplicationContext(),
-											getResources()
-													.getString(
-															R.string.logn_generic_error),
+									Toast.makeText(getApplicationContext(),
+											R.string.logn_generic_error,
 											Toast.LENGTH_LONG).show();
 								}
 							}
@@ -131,8 +125,9 @@ public class SignInActivity extends ActionBarActivity {
 
 	private void finishActivity() {
 		// Start an intent for the dispatch activity
-        Intent intent = new Intent(SignInActivity.this, DispatchActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
+		Intent intent = new Intent(SignInActivity.this, DispatchActivity.class);
+		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK
+				| Intent.FLAG_ACTIVITY_NEW_TASK);
+		startActivity(intent);
 	}
 }

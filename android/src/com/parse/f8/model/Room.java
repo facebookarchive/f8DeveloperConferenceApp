@@ -45,13 +45,20 @@ public class Room extends ParseObject {
 				colorValues.get(2));
 		return color;
 	}
+
+	public String getDescription() {
+		String description = getString("description");
+		if (description == null) {
+			description = "";
+		}
+		return description;
+	}
 	
 	public static void findInBackground(int order,
 			final GetCallback<Room> callback) {
 		ParseQuery<Room> roomQuery = ParseQuery.getQuery(Room.class);
 		roomQuery.whereEqualTo("order", order);
 		roomQuery.getFirstInBackground(new GetCallback<Room>() {
-
 			@Override
 			public void done(Room room, ParseException e) {
 				if (e == null) {

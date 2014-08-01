@@ -30,6 +30,7 @@ import com.parse.ParseFacebookUtils;
 import com.parse.ParseInstallation;
 import com.parse.ParseObject;
 import com.parse.PushService;
+import com.parse.f8.model.GeneralInfo;
 import com.parse.f8.model.Message;
 import com.parse.f8.model.Room;
 import com.parse.f8.model.Slot;
@@ -46,10 +47,10 @@ public class F8App extends Application {
 		ParseObject.registerSubclass(Speaker.class);
 		ParseObject.registerSubclass(Message.class);
 		ParseObject.registerSubclass(Room.class);
+		ParseObject.registerSubclass(GeneralInfo.class);
 		// Initialize Parse
-		Parse.initialize(this,
-				getResources().getString(R.string.parse_application_id),
-				getResources().getString(R.string.parse_client_key));
+		Parse.initialize(this, getString(R.string.parse_application_id),
+				getString(R.string.parse_client_key));
 		// Initialize Facebook
 		String appId = getString(R.string.facebook_app_id);
 		ParseFacebookUtils.initialize(appId);

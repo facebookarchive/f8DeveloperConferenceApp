@@ -42,7 +42,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.ViewSwitcher;
 
 import com.parse.FindCallback;
 import com.parse.ParseException;
@@ -55,7 +54,6 @@ import com.parse.f8.model.Message;
 public class AlertsActivity extends BaseActivity {
 
 	private AlertsAdapter alertsAdapter;
-	private ViewSwitcher viewSwitcher;
 	private ListView alertsView;
 	private LinearLayout noAlertsView;
 
@@ -65,9 +63,9 @@ public class AlertsActivity extends BaseActivity {
 		setContentView(R.layout.activity_alerts);
 
 		// Set up the views
-		viewSwitcher = (ViewSwitcher) findViewById(R.id.view_switcher);
 		alertsView = (ListView) findViewById(R.id.alerts_view);
 		noAlertsView = (LinearLayout) findViewById(R.id.no_alerts_view);
+		alertsView.setEmptyView(noAlertsView);
 
 		// Set up the adapter for the alert list
 		alertsAdapter = new AlertsAdapter(this);
@@ -102,20 +100,9 @@ public class AlertsActivity extends BaseActivity {
 
 			@Override
 			public void done(List<Message> objects, ParseException e) {
-				if (e != null || objects.isEmpty()) {
-					// Show the second view in the view switcher
-					// list, the no alerts view
-					if (viewSwitcher.getCurrentView() != noAlertsView) {
-						viewSwitcher.showNext();
-					}
-				} else {
+				if (e == null && !objects.isEmpty()) {
 					for (Message message : objects) {
 						alertsAdapter.add(message);
-					}
-					// Show the first view in the view switcher
-					// list, the alerts view
-					if (viewSwitcher.getCurrentView() != alertsView) {
-						viewSwitcher.showPrevious();
 					}
 				}
 
@@ -134,9 +121,12 @@ public class AlertsActivity extends BaseActivity {
 	private class AlertsAdapter extends ArrayAdapter<Message> {
 
 		private ViewHolder holder;
+		private LayoutInflater inflater;
 
 		public AlertsAdapter(Context context) {
 			super(context, 0);
+			inflater = (LayoutInflater) getContext().getSystemService(
+					Context.LAYOUT_INFLATER_SERVICE);
 		}
 
 		@Override
@@ -144,8 +134,6 @@ public class AlertsActivity extends BaseActivity {
 
 			if (v == null) {
 				// Inflate the layout
-				LayoutInflater inflater = (LayoutInflater) getContext()
-						.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 				v = inflater.inflate(R.layout.list_item_alert, parent, false);
 				// Cache the view components
 				holder = new ViewHolder();

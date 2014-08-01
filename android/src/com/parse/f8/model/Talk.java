@@ -161,7 +161,7 @@ public class Talk extends ParseObject {
 			}
 		});
 	}
-	
+
 	/**
 	 * Returns a URI to use in Intents to represent this talk. The format is
 	 * f8://talk/theObjectId
@@ -192,11 +192,11 @@ public class Talk extends ParseObject {
 		}
 		return talkAbstract;
 	}
-
+	
 	public ParseFile getIcon() {
 		return getParseFile("icon");
 	}
-	
+
 	public List<Speaker> getSpeakers() {
 		return getList("speakers");
 	}
