@@ -15,7 +15,7 @@ You'll also need to create a Facebook app and configure it for the platforms you
 ### Parse App Setup ###
 
 1. Go to your [Parse Dashboard](https://parse.com/apps) and create a new Parse app.
-2. Write down your new Parse application id and client key. You will need these later. Remember that you can always get your keys from your app's Settings page.
+2. Copy your new Parse application id and client key. You will need these later. Remember that you can always get your keys from your app's Settings page.
 3. Locate the `data` folder in your local clone of the repo. Here you will find `GeneralInfo.json`, `Message.json`, `Room.json`, `Slot.json`, `Speaker.json`, and `Talk.json` . These can be imported into your brand new Parse app.
 4. Go to your app's Data Browser, and click on the "Import" button. Choose `GeneralInfo.json` and give your new class the name "GeneralInfo". Repeat this for each of the json files in the `data` folder, giving them the appropriate class name.
 5. When the data is imported, images files are not brought over. We've provided images for the `Room` icons that you can use. To add these:
