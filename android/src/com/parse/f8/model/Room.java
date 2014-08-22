@@ -40,9 +40,13 @@ public class Room extends ParseObject {
 	}
 
 	public int getColor() {
-		List<Integer> colorValues = this.getList("displayColor");
-		int color = Color.rgb(colorValues.get(0), colorValues.get(1),
-				colorValues.get(2));
+		int color = Color.rgb(46, 69, 81); // Default color
+		List<Number> displayColor = getList("displayColor");
+		if (displayColor != null) {
+			color = Color.rgb(displayColor.get(0).intValue(),
+					displayColor.get(1).intValue(), displayColor.get(2)
+							.intValue());
+		}
 		return color;
 	}
 

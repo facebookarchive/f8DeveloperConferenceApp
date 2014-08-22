@@ -1,0 +1,915 @@
+{ "results": [
+	{
+        "abstract": "Delivering reliable, high-performance web experiences at Facebook’s scale has required us to challenge some long-held assumptions about software development. Join us to learn how we abandoned the traditional MVC paradigm in favor of a more functional application architecture.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:33:43.768Z",
+        "isBreak": false,
+        "objectId": "T3IaH4luHs",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "MwSgjJqxHh"
+        },
+        "sessionID": "1348",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "0TVFI7Tj6G"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "xUzRO1ZdeF"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "3hSTZAwhMf"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "0mtGGPM2xF"
+            }
+        ],
+        "title": "Rethinking Web App Development at Facebook",
+        "updatedAt": "2014-05-22T18:33:48.232Z",
+        "videoID": "nYkdrAPrdcw"
+    },
+	{
+        "abstract": "How does Facebook build \u0026 release apps so frequently? How do we work to make them successful on devices and networks of all types? We'll share what we've learned by developing and launching mobile apps for people all around the world.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:34:15.192Z",
+        "isBreak": false,
+        "objectId": "zIbBoWF8Nc",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "MwSgjJqxHh"
+        },
+        "sessionID": "1352",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "U7ZISkhLPX"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "CotWunzvVm"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "RCIs4JIwpo"
+            }
+        ],
+        "title": "Releasing \u0026 Optimizing Mobile Apps for the World",
+        "updatedAt": "2014-05-22T18:32:15.964Z",
+        "videoID": "mOyoTUETmSM"
+    },
+	{
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T23:51:00.515Z",
+        "isBreak": true,
+        "objectId": "gWg7cW8nzU",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "FNkltdqLyG"
+        },
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "py2NZcxEvs"
+        },
+        "speakers": [],
+        "title": "Break",
+        "updatedAt": "2014-04-21T18:50:26.358Z"
+    },
+	{
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T23:54:28.576Z",
+        "isBreak": true,
+        "objectId": "rkZOUhPF3Q",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "jC85VJ4fBg"
+        },
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "py2NZcxEvs"
+        },
+        "speakers": [],
+        "title": "Break",
+        "updatedAt": "2014-04-21T18:50:25.371Z"
+    },
+	{
+        "abstract": "Games lounge.",
+        "allDay": true,
+        "createdAt": "2014-04-21T16:29:44.521Z",
+        "isBreak": false,
+        "objectId": "DdKgcsjES4",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "M95M2AX2rX"
+        },
+        "sessionID": "1355",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "0TVFI7Tj6G"
+        },
+        "speakers": [],
+        "title": "Games lounge",
+        "updatedAt": "2014-04-29T22:34:54.481Z"
+    },
+	{
+        "abstract": "Registration will be open from 8:00-10:00 am. Please bring a government issued form of identification. Coat check and Lost \u0026 Found will be available here throughout the day.",
+        "alwaysFavorite": true,
+        "createdAt": "2014-02-27T19:51:58.405Z",
+        "icon": {
+            "__type": "File",
+            "name": "51125fb3-e054-42f5-a2ff-58ea1e4c3a50-registration.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/51125fb3-e054-42f5-a2ff-58ea1e4c3a50-registration.png"
+        },
+        "isBreak": false,
+        "objectId": "OOY98A9cFu",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "j2nn0A7lXR"
+        },
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "LG1v77vLYE"
+        },
+        "speakers": [],
+        "title": "Registration",
+        "updatedAt": "2014-04-22T00:24:26.944Z"
+    },
+	{
+        "abstract": "Mobile ads on Facebook have been tremendously effective. Now these ads are ready for your app. Join us in this session to get a deeper look into how to build your business with Facebook’s new Audience Network.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-04-21T18:29:12.144Z",
+        "isBreak": false,
+        "objectId": "QOXZmUdmVK",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "4zSux2lEPq"
+        },
+        "sessionID": "1346",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "wsWolO87wH"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "w7OWpJTY9Y"
+            }
+        ],
+        "title": "Monetize your app with Facebook",
+        "updatedAt": "2014-05-22T18:29:24.708Z",
+        "videoID": "xkEO6Ej__Os"
+    },
+	{
+        "abstract": "Did you know 66% of app users open their apps between 1 and 10 times? In this session we'll focus on how you can thoughtfully re-engage people through push, email and mobile app ads.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:18:28.212Z",
+        "isBreak": false,
+        "objectId": "6EjK8R4f1H",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "jC85VJ4fBg"
+        },
+        "sessionID": "1340",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "PIrjSoCzNM"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "6RDIWN52nC"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "VKMYTg5Dux"
+            }
+        ],
+        "title": "From Lapsed to Loyal: Mobile Engagement Strategies",
+        "updatedAt": "2014-05-22T18:35:45.028Z",
+        "videoID": "uFmJ7cfQrfw"
+    },
+	{
+        "abstract": "Widespread mobile adoption is enabling disruptive business models at dizzying speeds. Join us for a panel discussion with industry leaders for a conversation about the solutions they're employing to take advantage of these new opportunities.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:27:11.749Z",
+        "isBreak": false,
+        "objectId": "jf2sRO6OL3",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "4zSux2lEPq"
+        },
+        "sessionID": "1344",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "y6m6H0nqjg"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "bo9sy14SFo"
+            }
+        ],
+        "title": "Disruptive Mobile Businesses",
+        "updatedAt": "2014-05-22T18:34:47.212Z",
+        "videoID": "Krm5YI-a63A"
+    },
+	{
+        "abstract": "Internet.org",
+        "allDay": true,
+        "createdAt": "2014-04-21T16:29:29.457Z",
+        "isBreak": false,
+        "objectId": "wkgp8aWfhr",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "mWFA6gY0oy"
+        },
+        "sessionID": "1354",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "0TVFI7Tj6G"
+        },
+        "speakers": [],
+        "title": "Internet.org",
+        "updatedAt": "2014-04-29T22:34:49.679Z"
+    },
+	{
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T23:55:47.220Z",
+        "isBreak": true,
+        "objectId": "9fIkcaVGTL",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "MwSgjJqxHh"
+        },
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "py2NZcxEvs"
+        },
+        "speakers": [],
+        "title": "Break",
+        "updatedAt": "2014-04-21T18:50:24.458Z"
+    },
+	{
+        "abstract": "Garage help.",
+        "allDay": true,
+        "createdAt": "2014-04-21T13:16:56.683Z",
+        "isBreak": false,
+        "objectId": "CDBoNkyjZT",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "hloFIbdExX"
+        },
+        "sessionID": "1353",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "0TVFI7Tj6G"
+        },
+        "speakers": [],
+        "title": "Garage help.",
+        "updatedAt": "2014-04-29T22:34:42.676Z"
+    },
+	{
+        "abstract": "We're bringing the party to you! Be sure to stick around after the final sessions wrap up for an on-site After Party featuring drinks, food, networking, and performances by Diplo, El Ten Eleven, and visual designer Joshua Davis. Must be 21+ to drink.",
+        "allDay": false,
+        "alwaysFavorite": true,
+        "createdAt": "2014-02-27T19:51:58.623Z",
+        "icon": {
+            "__type": "File",
+            "name": "07caa9da-f45a-4f5a-a9a7-6570cf7998c1-afterparty.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/07caa9da-f45a-4f5a-a9a7-6570cf7998c1-afterparty.png"
+        },
+        "isBreak": false,
+        "objectId": "QBNYryW90j",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "3knGcdYRnx"
+        },
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "WG3UAxiaiC"
+        },
+        "speakers": [],
+        "title": "After Party",
+        "updatedAt": "2014-04-22T00:21:10.150Z"
+    },
+	{
+        "abstract": "Stop by the All Day Café any time you need a drink or a snack. Lunch, served at 11:30 am, will feature salads and wraps, pizza, Fuki Sushi, and treats from the Facebook Sweet Stop.",
+        "allDay": false,
+        "alwaysFavorite": true,
+        "createdAt": "2014-02-27T19:51:58.397Z",
+        "icon": {
+            "__type": "File",
+            "name": "c8ccb690-fec0-497d-b463-4ca5166de144-lunch.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/c8ccb690-fec0-497d-b463-4ca5166de144-lunch.png"
+        },
+        "isBreak": false,
+        "objectId": "nH5RgPmSVo",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "j2nn0A7lXR"
+        },
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "gBYIrS1Kms"
+        },
+        "speakers": [],
+        "title": "Lunch Break",
+        "updatedAt": "2014-04-22T00:21:44.915Z"
+    },
+	{
+        "abstract": "",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-04-10T20:54:10.551Z",
+        "isBreak": false,
+        "objectId": "qLGspk05QX",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "z3ApR9v3X4"
+        },
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "2R97T2acFZ"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "G3P110RYOv"
+            }
+        ],
+        "title": "Welcome to f8",
+        "updatedAt": "2014-05-12T23:15:15.111Z",
+        "videoID": "0onciIB-ZJA"
+    },
+	{
+        "abstract": "",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T23:55:20.339Z",
+        "isBreak": true,
+        "objectId": "n89lDdquFj",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "4zSux2lEPq"
+        },
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "py2NZcxEvs"
+        },
+        "speakers": [],
+        "title": "Break",
+        "updatedAt": "2014-04-28T03:41:57.343Z"
+    },
+	{
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-04-21T18:28:13.575Z",
+        "isBreak": false,
+        "objectId": "0RjaLpJLCq",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "4zSux2lEPq"
+        },
+        "sessionID": "1345",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "PIrjSoCzNM"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "ETY2SyXPj8"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "yhGgnY8H1L"
+            }
+        ],
+        "title": "The Seven Deadly Sins of Game Monetization",
+        "updatedAt": "2014-05-22T18:29:52.332Z",
+        "videoID": "sJD60NtkeKw"
+    },
+	{
+        "abstract": "Getting paid is one of the biggest points of friction in the customer acquisition funnel. Learn how Facebook approaches and optimizes for growth on payments. Walk away with relevant tips and tactics to optimize your payment flows and more.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:28:02.965Z",
+        "isBreak": false,
+        "objectId": "7iKoPu41CP",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "4zSux2lEPq"
+        },
+        "sessionID": "1347",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "U7ZISkhLPX"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "LuY6tloCAg"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "Jplf3llkOq"
+            }
+        ],
+        "title": "Small Changes, Big Payoffs",
+        "updatedAt": "2014-05-22T18:34:29.559Z",
+        "videoID": "xN70ExI_ZEA"
+    },
+	{
+        "abstract": "With over a billion people using our apps, the performance of our web servers–and the efficiency of the tools we use–are vitally important. Catch up on the latest additions to HHVM, our flagship PHP runtime project, and dig into our new programming language, Hack.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:33:51.383Z",
+        "isBreak": false,
+        "objectId": "FI2GFtEbqF",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "MwSgjJqxHh"
+        },
+        "sessionID": "1349",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "y6m6H0nqjg"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "wluTJ85BVl"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "13Kps6hVtB"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "hGohzDF1DB"
+            }
+        ],
+        "title": "Facebook's High-Performance Server Infrastructure",
+        "updatedAt": "2014-05-22T18:33:24.731Z",
+        "videoID": "zBV9TkTXxg0"
+    },
+	{
+        "abstract": "Learn more about the biggest update to Facebook Login since its introduction. Find out how we’re making Login a fast and more secure sign up experience while also giving people more clarity and control of the information that they’re sharing with apps. If your app uses Login, please make sure that you attend.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-04-10T21:26:18.913Z",
+        "isBreak": false,
+        "objectId": "kQ9667oCDy",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "FNkltdqLyG"
+        },
+        "sessionID": "1333",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "0TVFI7Tj6G"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "PCX17s1WeK"
+            }
+        ],
+        "title": "Everything You Need to Know About the New Login",
+        "updatedAt": "2014-05-12T23:16:10.436Z",
+        "videoID": "qPh0wTe9IsE"
+    },
+	{
+        "abstract": "As a follow-up to the Login session, we’ll do a technical walkthrough to show how you can migrate your existing mobile and web apps to the new Facebook Login and the new version of the Graph API. Learn more about how we’re making platform more stable, improving the developer experience, and the new APIs we’re introducing to make key use cases easier to achieve.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-04-21T18:13:18.276Z",
+        "isBreak": false,
+        "objectId": "ydwYtkj4Dw",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "FNkltdqLyG"
+        },
+        "sessionID": "1334",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "y6m6H0nqjg"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "9IYeRu30qU"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "PtEHrdad4x"
+            }
+        ],
+        "title": "Getting to Know the Graph API 2.0",
+        "updatedAt": "2014-05-22T18:31:43.710Z",
+        "videoID": "s-at0aX4Zcg"
+    },
+	{
+        "abstract": "App Links is an open cross-platform solution for linking directly to a native app. Learn how to make your app linkable and link to other apps to improve your user experience, engagement and advertising.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-04-21T18:22:28.450Z",
+        "isBreak": false,
+        "objectId": "fT0cbzq0f5",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "FNkltdqLyG"
+        },
+        "sessionID": "1335",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "PIrjSoCzNM"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "t0xLsq0gO0"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "y3OM13H4jR"
+            }
+        ],
+        "title": "App Links: Linking Made Simple and Easy on Mobile",
+        "updatedAt": "2014-05-22T18:30:55.284Z",
+        "videoID": "XMFwlnRV9Ag"
+    },
+	{
+        "abstract": "Learn how to give people a great experience in your app under a broad range of network conditions, including no network connection at all, with Parse Local Datastore. We'll also discuss the security features Parse provides to keep your data and users safe.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-04-21T18:18:28.637Z",
+        "isBreak": false,
+        "objectId": "gDAy8bJvcT",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "FNkltdqLyG"
+        },
+        "sessionID": "1337",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "U7ZISkhLPX"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "51sfLoaO7d"
+            }
+        ],
+        "title": "Local Datastore and Security in Your Parse App",
+        "updatedAt": "2014-05-22T18:31:19.499Z",
+        "videoID": "uAyJc3GVG8k"
+    },
+	{
+        "abstract": "Help drive organic referrals from the people who love using your app with our mobile sharing options. In addition to the Share Dialog, we’ll talk about new ways for people to share 1:1 and like your app’s content.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-04-21T18:25:54.930Z",
+        "isBreak": false,
+        "objectId": "OB31K8a4F0",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "jC85VJ4fBg"
+        },
+        "sessionID": "1342",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "U7ZISkhLPX"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "Ftx25BqQPv"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "y65JicZi6u"
+            }
+        ],
+        "title": "Sharing Goes Mobile",
+        "updatedAt": "2014-05-22T18:30:23.774Z",
+        "videoID": "FN5O66QIGvk"
+    },
+	{
+        "abstract": "Join us as we talk about how we build mobile apps at Facebook: the way in which dozens of engineering teams work together on our flagship apps, and – at the other extreme – how one small team created the unique experience in our most recent iOS app, Paper.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:34:06.965Z",
+        "isBreak": false,
+        "objectId": "VDIKaSTnO8",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "MwSgjJqxHh"
+        },
+        "sessionID": "1351",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "wsWolO87wH"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "pxujYQ3zsq"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "Eiry55TUvj"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "15BqlGehup"
+            }
+        ],
+        "title": "Mobile Engineering at Facebook's Scale",
+        "updatedAt": "2014-05-22T18:32:40.750Z",
+        "videoID": "TCuVxU07NWs"
+    },
+	{
+        "abstract": "Curious how we design mobile products at Facebook? Get a peek under the hood at the design process behind the new Messenger, released in November 2013 and updated since. You’ll see how we approached the design problem, get a sense for the tools we used, and take away the learnings.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:33:59.077Z",
+        "isBreak": false,
+        "objectId": "59o4oA4v3s",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "MwSgjJqxHh"
+        },
+        "sessionID": "1350",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "PIrjSoCzNM"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "J2P6HLppnr"
+            }
+        ],
+        "title": "Designing the New Messenger",
+        "updatedAt": "2014-05-22T18:33:00.560Z",
+        "videoID": "QErcmjPxEtg"
+    },
+	{
+        "abstract": "Learn about our view on the changing ecommerce landscape, and how Facebook’s solutions can help ecommerce merchants drive sales across devices.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:26:51.688Z",
+        "isBreak": false,
+        "objectId": "kK5pP4oglA",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "4zSux2lEPq"
+        },
+        "sessionID": "1343",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "0TVFI7Tj6G"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "08nXmoDCgV"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "uKMA1aFfc8"
+            }
+        ],
+        "title": "Leveraging Facebook for Ecommerce",
+        "updatedAt": "2014-05-22T18:35:04.400Z",
+        "videoID": "GkLEV7KmYis"
+    },
+	{
+        "abstract": "Whether for news, sports or entertainment, you can make your story richer and more relevant using Facebook content and data. Learn how broadcast and digital media companies can use Facebook’s APIs and building tools to enable seamless content sourcing and integration. We'll also talk about the different ways content is surfaced in News Feed and share tips for optimization.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:21:03.829Z",
+        "isBreak": false,
+        "objectId": "F0KZ8qKzFg",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "jC85VJ4fBg"
+        },
+        "sessionID": "1341",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "wsWolO87wH"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "0KWybra1gW"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "WaWMq12MWB"
+            }
+        ],
+        "title": "Sourcing and Distribution of Social Content for Media",
+        "updatedAt": "2014-05-22T18:35:25.885Z",
+        "videoID": "hS8XWFuk77Y"
+    },
+	{
+        "abstract": "There are thousands of games competing to be discovered on the app stores. Find out how we're helping to solve the challenge of games discovery on mobile and web. Learn how the next generation of games is making everything better through social interactions and sharing.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:18:06.720Z",
+        "isBreak": false,
+        "objectId": "k4irMDui4F",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "jC85VJ4fBg"
+        },
+        "sessionID": "1339",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "y6m6H0nqjg"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "pgwuIMelwF"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "F7hGqR0AJp"
+            }
+        ],
+        "title": "Solving the Discovery Dilemma for Games",
+        "updatedAt": "2014-05-22T18:36:03.166Z",
+        "videoID": "jJrQ-EFhpug"
+    },
+	{
+        "abstract": "Get a crash course in mobile app advertising and learn how to get the most out of your ad campaigns. From finding new customers to keeping them engaged, discover how you can use mobile app ads to connect with the people who matter most for your app.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:17:35.640Z",
+        "isBreak": false,
+        "objectId": "1NsrU1XGpn",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "jC85VJ4fBg"
+        },
+        "sessionID": "1338",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "0TVFI7Tj6G"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "I3XoCQHWET"
+            },
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "G6bCT8BrCB"
+            }
+        ],
+        "title": "Using Advertising to Reach the Right People at Scale",
+        "updatedAt": "2014-05-22T18:36:21.026Z",
+        "videoID": "lzyFLWW0nXY"
+    },
+	{
+        "abstract": "Parse lets app developers focus on creating unique and engaging apps without having to worry about server maintenance or infrastructure. We'll provide an overview of features like data storage, push notifications and analytics to help you quickly get your app up and running.",
+        "allDay": false,
+        "alwaysFavorite": false,
+        "createdAt": "2014-03-28T21:04:02.854Z",
+        "isBreak": false,
+        "objectId": "9bl9SEOAwS",
+        "room": {
+            "__type": "Pointer",
+            "className": "Room",
+            "objectId": "FNkltdqLyG"
+        },
+        "sessionID": "1336",
+        "slot": {
+            "__type": "Pointer",
+            "className": "Slot",
+            "objectId": "wsWolO87wH"
+        },
+        "speakers": [
+            {
+                "__type": "Pointer",
+                "className": "Speaker",
+                "objectId": "6q9QcHaDeq"
+            }
+        ],
+        "title": "Getting Started with Parse",
+        "updatedAt": "2014-05-22T18:36:42.035Z",
+        "videoID": "qq_fSMNWVbE"
+    }
+] }

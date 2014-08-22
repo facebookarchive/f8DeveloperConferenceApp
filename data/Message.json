@@ -1,0 +1,16 @@
+{ "results": [
+	{
+        "createdAt": "2014-04-30T18:28:27.979Z",
+        "isRead": true,
+        "isSurvey": true,
+        "objectId": "pLLi4ANwGZ",
+        "title": "Post Keynote Survey",
+        "updatedAt": "2014-05-01T19:54:06.448Z",
+        "url": "http://www.example.com/survey/",
+        "user": {
+            "__type": "Pointer",
+            "className": "_User",
+            "objectId": "NCsiZBjInG"
+        }
+    }
+] }

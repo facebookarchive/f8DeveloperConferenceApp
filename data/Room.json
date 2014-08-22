@@ -1,0 +1,181 @@
+{ "results": [
+	{
+        "createdAt": "2014-02-27T19:52:57.205Z",
+        "description": "Learn how to earn more on mobile and web, from making purchasing easier to new ways to use ads.",
+        "displayColor": [
+            95,
+            176,
+            105
+        ],
+        "icon": {
+            "__type": "File",
+            "name": "9e4280d1-8079-4557-aa9c-8d824c96fe77-monetize.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/9e4280d1-8079-4557-aa9c-8d824c96fe77-monetize.png"
+        },
+        "name": "Monetize",
+        "nickname": "3",
+        "objectId": "4zSux2lEPq",
+        "order": 6,
+        "updatedAt": "2014-04-22T00:13:17.334Z"
+    },
+	{
+        "createdAt": "2014-03-28T18:22:07.991Z",
+        "description": "Learn from our experiences in these talks about building at scale and maintaining performance.",
+        "displayColor": [
+            119,
+            183,
+            201
+        ],
+        "icon": {
+            "__type": "File",
+            "name": "9d375ca2-f397-48e5-9026-faa7bc5b21de-hackerway.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/9d375ca2-f397-48e5-9026-faa7bc5b21de-hackerway.png"
+        },
+        "name": "The Hacker Way",
+        "nickname": "4",
+        "objectId": "MwSgjJqxHh",
+        "order": 7,
+        "updatedAt": "2014-04-22T00:13:30.486Z"
+    },
+	{
+        "createdAt": "2014-02-27T19:52:57.213Z",
+        "description": "Leaders from Facebook and Parse kick off our gathering.",
+        "displayColor": [
+            46,
+            69,
+            81
+        ],
+        "icon": {
+            "__type": "File",
+            "name": "2972f81a-a243-4e64-b97b-0022c3dc744d-keynote.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/2972f81a-a243-4e64-b97b-0022c3dc744d-keynote.png"
+        },
+        "name": "Keynote",
+        "nickname": "0",
+        "objectId": "z3ApR9v3X4",
+        "order": 2,
+        "updatedAt": "2014-04-28T03:57:59.797Z"
+    },
+	{
+        "createdAt": "2014-02-27T19:52:57.197Z",
+        "description": "Accelerate development of your cross-platform mobile apps and games with Facebook and Parse.",
+        "displayColor": [
+            188,
+            78,
+            62
+        ],
+        "icon": {
+            "__type": "File",
+            "name": "410fb7f9-fc7c-45b0-9bb4-e6bc0220920e-build.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/410fb7f9-fc7c-45b0-9bb4-e6bc0220920e-build.png"
+        },
+        "name": "Build",
+        "nickname": "1",
+        "objectId": "FNkltdqLyG",
+        "order": 4,
+        "updatedAt": "2014-04-22T00:12:50.826Z"
+    },
+	{
+        "createdAt": "2014-02-27T19:52:57.159Z",
+        "description": "Build your audience and keep them engaged with mobile ads, push notifications, and social sharing.",
+        "displayColor": [
+            231,
+            173,
+            66
+        ],
+        "icon": {
+            "__type": "File",
+            "name": "d84f260e-38ec-4c11-94b4-594297a6908e-grow.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/d84f260e-38ec-4c11-94b4-594297a6908e-grow.png"
+        },
+        "name": "Grow",
+        "nickname": "2",
+        "objectId": "jC85VJ4fBg",
+        "order": 5,
+        "updatedAt": "2014-04-22T00:13:05.254Z"
+    },
+	{
+        "createdAt": "2014-02-27T19:52:57.221Z",
+        "description": "",
+        "displayColor": [
+            46,
+            69,
+            81
+        ],
+        "icon": null,
+        "name": "Default",
+        "nickname": "cafe",
+        "objectId": "j2nn0A7lXR",
+        "order": 1,
+        "updatedAt": "2014-05-08T16:43:26.771Z"
+    },
+	{
+        "createdAt": "2014-03-28T18:29:04.610Z",
+        "description": "Visit The Garage for a chat with engineers, designers, and product specialists from Facebook and Parse. This is your opportunity to talk one-on-one with our team members about building on the Facebook Platform, so stop by throughout the day with your laptop and your questions.",
+        "displayColor": [
+            59,
+            89,
+            152
+        ],
+        "icon": {
+            "__type": "File",
+            "name": "915097d1-f6a9-478c-bc8e-7083ef90ef7f-facebookgarage.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/915097d1-f6a9-478c-bc8e-7083ef90ef7f-facebookgarage.png"
+        },
+        "name": "The Garage",
+        "nickname": "5",
+        "objectId": "hloFIbdExX",
+        "order": 8,
+        "updatedAt": "2014-04-22T00:14:09.779Z"
+    },
+	{
+        "createdAt": "2014-02-27T19:52:57.229Z",
+        "description": "",
+        "displayColor": [
+            46,
+            69,
+            81
+        ],
+        "name": "After Party",
+        "objectId": "3knGcdYRnx",
+        "order": 11,
+        "updatedAt": "2014-05-08T16:42:47.055Z"
+    },
+	{
+        "createdAt": "2014-04-21T16:33:06.615Z",
+        "description": "Play leading Facebook web games and chat with the Facebook Games team about getting your game onto Facebook. We'll also have Oculus Rift DK2 demos straight from the Oculus team, so make sure to stop by during the day to learn more about the future of gaming!",
+        "displayColor": [
+            216,
+            83,
+            47
+        ],
+        "icon": {
+            "__type": "File",
+            "name": "43c4fd37-21bf-482d-bba1-b7af177edb16-gameslounge.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/43c4fd37-21bf-482d-bba1-b7af177edb16-gameslounge.png"
+        },
+        "name": "Games Lounge",
+        "objectId": "M95M2AX2rX",
+        "order": 9,
+        "updatedAt": "2014-04-30T16:02:08.527Z"
+    },
+	{
+        "createdAt": "2014-03-28T18:30:04.757Z",
+        "description": "Earlier this year, Facebook and Ericsson announced the Internet.org Innovation Lab. The Lab will enable developers to test their apps in real world environments, including simulated network conditions. Stop by during the day to learn more about Internet.org and its initiatives.",
+        "displayColor": [
+            211,
+            46,
+            198
+        ],
+        "icon": {
+            "__type": "File",
+            "name": "0e1b5598-db82-4623-bbe2-6d58816ec117-internetorg.png",
+            "url": "http://files.parse.com/3ba1eba1-2e52-4665-aa4d-1cb55d0b56f4/0e1b5598-db82-4623-bbe2-6d58816ec117-internetorg.png"
+        },
+        "name": "Internet.org",
+        "nickname": "6",
+        "objectId": "mWFA6gY0oy",
+        "order": 10,
+        "updatedAt": "2014-04-22T18:33:40.499Z"
+    }
+] }
