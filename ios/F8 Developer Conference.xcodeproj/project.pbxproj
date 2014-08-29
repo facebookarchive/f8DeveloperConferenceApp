@@ -497,7 +497,6 @@
 				ORGANIZATIONNAME = Parse;
 				TargetAttributes = {
 					97C5F55E17A343AE0071C5EC = {
-						DevelopmentTeam = 289LFBE5L8;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -642,7 +641,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "3FED4539-5BD8-45B6-98D1-DA8EC7B872E1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -698,7 +696,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3FED4539-5BD8-45B6-98D1-DA8EC7B872E1";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
