@@ -40,6 +40,7 @@ import com.parse.f8.R;
 public class ScheduleActivity extends BaseActivity implements
 		ActionBar.TabListener {
 
+  private static ScheduleActivity instance;
 	private ScheduleSectionsPagerAdapter scheduleSectionsPagerAdapter;
 	private ViewPager sectionsViewPager;
 	private ActionBar actionBar;
@@ -80,6 +81,8 @@ public class ScheduleActivity extends BaseActivity implements
 			scheduleTab.getIcon().setAlpha(80);
 			actionBar.addTab(scheduleTab);
 		}
+
+    instance = this;
 
 	}
 
@@ -160,5 +163,9 @@ public class ScheduleActivity extends BaseActivity implements
 			icon.setAlpha(80);
 		}
 	}
+
+  public static ScheduleActivity getInstance() {
+    return instance;
+  }
 
 }
