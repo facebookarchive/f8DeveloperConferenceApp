@@ -23,9 +23,6 @@
 
 package com.parse.f8.view;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -46,8 +43,10 @@ import com.parse.f8.model.Room;
 import com.parse.f8.model.Talk;
 import com.parse.f8.util.TalkListAdapter;
 
-public class ScheduleFragment extends Fragment {
+import java.util.ArrayList;
+import java.util.List;
 
+public class ScheduleFragment extends Fragment {
 	public static final String ARG_TRACK = "track";
 
 	public String[] scheduleTitles;
@@ -93,7 +92,8 @@ public class ScheduleFragment extends Fragment {
 						public void done(Talk talk, ParseException e) {
 							if (talk != null) {
 								talkList.add(talk);
-								if (!getActivity().isFinishing()) {
+
+								if (!ScheduleActivity.getInstance().isFinishing()) {
 									// Update view
 									updateView();
 								}
@@ -102,7 +102,7 @@ public class ScheduleFragment extends Fragment {
 					});
 		} else {
 			// This is a list of talks for a track
-			adapter = new TalkListAdapter(getActivity(), false);
+			adapter = new TalkListAdapter(ScheduleActivity.getInstance(), false);
 			// Get the room info corresponding to this track
 			Room.findInBackground(track, new GetCallback<Room>() {
 				@Override
@@ -119,7 +119,7 @@ public class ScheduleFragment extends Fragment {
 											adapter.add(talk);
 										}
 									}
-									if (!getActivity().isFinishing()) {
+									if (!ScheduleActivity.getInstance().isFinishing()) {
 										// Update view
 										updateView();
 									}
@@ -167,7 +167,7 @@ public class ScheduleFragment extends Fragment {
 					// 1
 					Talk talk = adapter.getItem(position - 1);
 					if (!talk.isBreak()) {
-						Intent intent = new Intent(getActivity(),
+						Intent intent = new Intent(ScheduleActivity.getInstance(),
 								TalkActivity.class);
 						intent.setData(talk.getUri());
 						startActivity(intent);
