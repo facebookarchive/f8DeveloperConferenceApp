@@ -1,6 +1,8 @@
-# f8 app #
+# [Archive] f8 app #
 
-This is the entire source code of the official [f8](http://www.fbf8.com) apps, available on the [App Store](https://itunes.apple.com/us/app/f8/id853467066?mt=8) as well as on [Google Play](https://play.google.com/store/apps/details?id=com.parse.f8). 
+**Note:** *This repository is not under active development.*
+
+This is the entire source code of the official [f8 2014](http://www.fbf8.com) apps, available on the [App Store](https://itunes.apple.com/us/app/f8/id853467066?mt=8) as well as on [Google Play](https://play.google.com/store/apps/details?id=com.parse.f8).
 
 Read more about these apps on our blog: [Open Sourcing the f8 Conference Apps](http://blog.parse.com/2014/08/28/open-sourcing-the-f8-conference-apps/)
 
